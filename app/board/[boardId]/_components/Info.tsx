@@ -53,8 +53,6 @@ export const Info = ({
       >
         <Button asChild variant="board" className="px-2">
           <Link href="/">
-            <p>Logo</p>
-
             <span className={
               cn(
                 "font-semibold ml-2",

@@ -6,8 +6,6 @@ import { CreateOrganization } from "@clerk/nextjs";
 export const EmptyOrg = () => {
   return (
     <div className="h-full flex flex-col items-center justify-center">
-      <p>Welcome image placeholder</p>
-
       <h2 className="text-2xl font-semibold mt-6">
         Welcome to Boardsta
       </h2>
