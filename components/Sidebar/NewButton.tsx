@@ -1,10 +1,9 @@
 "use client";
 
-import React from 'react';
-import { Dialog, DialogContent, DialogTrigger } from '../ui/dialog';
-import { Plus } from 'lucide-react';
 import { CreateOrganization } from '@clerk/nextjs';
+import { Plus } from 'lucide-react';
 import { Hint } from '../Hint';
+import { Dialog, DialogContent, DialogTrigger } from '../ui/dialog';
 
 export const NewButton = () => {
   return (

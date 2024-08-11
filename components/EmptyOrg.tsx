@@ -1,7 +1,6 @@
-import React from 'react';
-import { Dialog, DialogContent, DialogTrigger } from "./ui/dialog";
-import { Button } from "./ui/button";
 import { CreateOrganization } from "@clerk/nextjs";
+import { Button } from "./ui/button";
+import { Dialog, DialogContent, DialogTrigger } from "./ui/dialog";
 
 export const EmptyOrg = () => {
   return (

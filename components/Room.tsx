@@ -28,7 +28,7 @@ export const Room = ({
       }}
       initialStorage={{
         layers: new LiveMap<string, LiveObject<Layer>>(),
-        layerIds: new LiveList(),
+        layerIds: new LiveList([]),
       }}
     >
       <ClientSideSuspense fallback={fallback}>
