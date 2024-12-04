@@ -20,7 +20,6 @@ export const Rectangle = ({
   return (
     <rect
       className="drop-shadow-md"
-      // e tells us where user clicked
       onPointerDown={(e) => onPointerDown(e, id)}
       style={{
         transform: `translate(${x}px, ${y}px)`,

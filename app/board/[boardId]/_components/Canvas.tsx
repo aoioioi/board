@@ -11,7 +11,6 @@ import { CursorsPresence } from "./cursors-presence";
 import { colorToCss, connectionIdToColor, findIntersectingLayersWithRectangle, penPointsToPathLayer, pointerEventToCanvasPoint, resizeBounds } from "@/lib/utils";
 import { LiveObject } from "@liveblocks/client";
 import { LayerPreview } from "./layer-preview";
-import { connect } from "http2";
 import { SelectionBox } from "./selection-box";
 import { SelectionTools } from "./selection-tools";
 import { Path } from "./Path";
@@ -443,7 +442,6 @@ export const Canvas = ({
 
     document.addEventListener("keydown", onKeyDown);
 
-    // always unmount event listeners to prevent memory leaks
     return () => {
       document.removeEventListener("keydown", onKeyDown);
     };
